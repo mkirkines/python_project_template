@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "sandbox"
+name = "python_project_template"
 version = "0.1.0"
-description = "Testing different things."
+description = "A template for a python project."
 authors = ["Markus Kirkines"]
 license = "MIT"
 
 [tool.poetry.scripts]
-drmario = "sandbox:main"
+python_project_template = "python_project_template:main"
 
 [tool.poetry.dependencies]
 python = "^3.9"
